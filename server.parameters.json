@@ -3,12 +3,12 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "adminUsername": {
-            "value": "adam"
+            "value": "tbadmus"
         },
         "adminPassword": {
             "reference": {
                 "keyVault": {
-                    "id": "/subscriptions/<your_subscription_id>/resourceGroups/ServerAutomationDemo/providers/Microsoft.KeyVault/vaults/ServerAutomationDemo-KV"
+                    "id": "/subscriptions/7aff1851-6214-471c-a631-32f1615dbaf4/resourceGroups/ServerAutomation/providers/Microsoft.KeyVault/vaults/ElbeengAutomationDemo-KV"
                 },
                 "secretName": "StandardVmAdminPassword"
             }

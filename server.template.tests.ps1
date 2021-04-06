@@ -12,7 +12,7 @@ describe 'Template validation' {
         $parameters = @{
             TemplateFile      = 'server.json'
             ResourceGroupName = $ResourceGroupName
-            adminUsername     = 'adam'
+            adminUsername     = 'tbadmus'
             adminPassword     = (ConvertTo-SecureString -String 'testing' -AsPlainText -Force)
             vmName            = 'TESTING'
         }
